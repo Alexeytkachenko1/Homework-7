@@ -1,0 +1,25 @@
+//utils
+@import "./utils/normalize";
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+//base
+@import "./base/common";
+@import "./base/container";
+
+//components
+@import "./components/modal-btn";
+@import "./components/modal";
+@import "./components/social-list";
+
+//layout
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/peculirities";
+@import "./layout/working-process";
+@import "./layout/our-command";
+@import "./layout/clients";
+@import "./layout/footer";
+
+
+

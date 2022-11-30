@@ -1,52 +1,57 @@
-.section-list {
-    display: flex;
-    padding-top: 94px;
-    padding-bottom: 47px;
-  }
-  .section-list-item{
-    width: 270px;
-  }
-  .section-list-item:not(:last-child){
-    margin-right: 30px;
-  }
-  .section-title::before{
-     display: block;
-     content:"";
-     width: 270px;
-     height: 120px;
-     background-color:#F5F4FA ;
-     margin-bottom: 30px;
-     background-repeat: no-repeat;
-     background-position: center;
+.peculiarities{
+  padding-top: 94px;
+  padding-bottom: 47px;
+  &__list {
+      display: flex;
+    
+    }
+    &__item{
+      width: 270px;
+      &:not(:last-child){
+        margin-right: 30px;
+      }
+    }
+    &__title {
+      margin-bottom: 10px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.142;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: $title-text-color;
+      
+      &--first::before{
+       background-image: url(../images/main/antenna1.svg);
+     }
+     
+     &--second::before{
+       background-image: url(../images/main/clock1.svg);
+     }
+     &--third::before{
+       background-image: url(../images/main/diagram1.svg);
+     }
+    &--fourth::before{
+       background-image: url(../images/main/astronaut1.svg);
+     }
+      &::before{
+         display: block;
+         content:"";
+         width: 270px;
+         height: 120px;
+         background-color:#F5F4FA ;
+         margin-bottom: 30px;
+         background-repeat: no-repeat;
+         background-position: center;
+
+        }
+        &__description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: $primary-text-color;
+      }
+    }
+
+}
   
-  }
-  
-  .section-title-first::before{
-    background-image: url(../images/main/antenna1.svg);
-  }
-  
-  .section-title-second::before{
-    background-image: url(../images/main/clock1.svg);
-  }
-  .section-title-third::before{
-    background-image: url(../images/main/diagram1.svg);
-  }
-  .section-title-fourth::before{
-    background-image: url(../images/main/astronaut1.svg);
-  }
-  .section-title {
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: $title-text-color;
-  }
-  .title-description {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: $primary-text-color;
-  }

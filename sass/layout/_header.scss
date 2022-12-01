@@ -23,17 +23,13 @@
     &__text {
       font-family: $secondary-font;
       font-style: normal;
-      font-weight: 700;
-      font-size: 26px;
-      line-height: 1.192;
+      @include font(700,26px,31px);
       letter-spacing: 0.03em;
     }
     &--web-color {
       font-family: $secondary-font;
       font-style: normal;
-      font-weight: 700;
-      font-size: 26px;
-      line-height: 1.192;
+      @include font(700,26px,31px);
       letter-spacing: 0.03em;
       color: $accent-color;
     }
@@ -51,10 +47,7 @@
       display: block;
       padding-top: 30px;
       padding-bottom: 30px;
-    
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 1.142;
+    @include font(500,14px,16px);
       letter-spacing: 0.02em;
     
       color: $title-text-color;
@@ -100,9 +93,7 @@
     align-items:center;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.142;
+    @include font(500,14px,16px);
     letter-spacing: 0.02em;
     color: $primary-text-color;
 

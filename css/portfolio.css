@@ -260,6 +260,12 @@ summary {
   overflow: hidden;
 }
 
+.footer-subscribe__form-btn, .join__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 *,
 *::before,
 *::after {
@@ -327,7 +333,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.192;
+  line-height: 1.1923076923;
   letter-spacing: 0.03em;
 }
 .logo--web-color {
@@ -335,7 +341,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.192;
+  line-height: 1.1923076923;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -353,7 +359,7 @@ body {
   padding-bottom: 30px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.1428571429;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -394,7 +400,7 @@ body {
   padding-bottom: 30px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.1428571429;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -421,15 +427,7 @@ body {
 .filters__list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
-}
-.filters__item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+  margin-bottom: 50px;
 }
 .filters__item:not(:last-child) {
   margin-right: 8px;
@@ -437,7 +435,7 @@ body {
 .filters__label {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -488,7 +486,7 @@ body {
 .footer__address-title {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: #ffffff;
   display: block;
@@ -500,7 +498,7 @@ body {
 .footer-contact__title {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   /* color: $accent-color; */
   color: rgba(255, 255, 255, 0.6);
@@ -519,7 +517,7 @@ body {
 .join__header {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -529,9 +527,6 @@ body {
   margin-right: 10px;
 }
 .join__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -549,7 +544,7 @@ body {
 .footer-subscribe__title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -569,7 +564,7 @@ body {
   border-radius: 4px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   display: flex;
@@ -584,9 +579,6 @@ body {
 }
 
 .footer-subscribe__form-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 200px;
   height: 50px;
   background: #2196F3;
@@ -653,7 +645,7 @@ body {
   transform: translate(-50%, -50%);
   font-weight: 400;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 1.5555555556;
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }

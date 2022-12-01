@@ -5,17 +5,11 @@
     &__list {
       display: flex;
       justify-content: center;
-      margin-bottom: 34px;
+      margin-bottom: 50px;
     }
     
     &__item {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.625;
-      text-align: center;
-      letter-spacing: 0.03em;
-    
-      color: $title-text-color;
+  
       
       &:not(:last-child) {
         margin-right: 8px;
@@ -23,17 +17,17 @@
     }
     &__label{
      
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
+      @include font(500,16px,26px);
+      text-align: center;
+      letter-spacing: 0.03em;
     
-    color: $title-text-color;
+      color: $title-text-color;
+ 
       padding: 6px 22px;
       background: #F5F4FA;
     border-radius: 4px;
     cursor: pointer;
+    
     .filters__input:checked +&{
       background-color:$accent-color;
       color:$primary-white-color;

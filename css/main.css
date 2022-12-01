@@ -260,6 +260,12 @@ summary {
   overflow: hidden;
 }
 
+.footer-subscribe__form-btn, .join__link, .clients__link, .working-process__container, .social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 *,
 *::before,
 *::after {
@@ -314,7 +320,7 @@ body {
   text-align: center;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.875;
+  line-height: 1.8571428571;
   letter-spacing: 0.06em;
   color: #ffffff;
 }
@@ -362,7 +368,7 @@ body {
   width: 100%;
   font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -380,7 +386,7 @@ body {
   transform: translate(40px, -50%);
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: #757575;
   margin-bottom: 4px;
@@ -406,7 +412,7 @@ body {
   left: 42px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: #757575;
   margin-bottom: 4px;
@@ -473,14 +479,14 @@ body {
   margin-right: 3px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .contact-form__href {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration-skip-ink: none;
@@ -528,9 +534,6 @@ body {
   margin: 10px;
 }
 .social__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -572,7 +575,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.192;
+  line-height: 1.1923076923;
   letter-spacing: 0.03em;
 }
 .logo--web-color {
@@ -580,7 +583,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.192;
+  line-height: 1.1923076923;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -598,7 +601,7 @@ body {
   padding-bottom: 30px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.1428571429;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -639,7 +642,7 @@ body {
   padding-bottom: 30px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.1428571429;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -677,9 +680,9 @@ body {
 .hero__title {
   margin: 0 auto;
   font-weight: 900;
-  width: 696px;
   font-size: 44px;
-  line-height: 1.363;
+  line-height: 1.3636363636;
+  width: 696px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -707,7 +710,7 @@ body {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -734,10 +737,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-.peculiarities__title__description {
+.peculiarities__description {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -753,7 +756,7 @@ body {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.166;
+  line-height: 1.1666666667;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -769,9 +772,6 @@ body {
 }
 .working-process__container {
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 370px;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
@@ -783,7 +783,7 @@ body {
 .working-process__description {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1428571429;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -802,7 +802,7 @@ body {
 .command__title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.166;
+  line-height: 1.1666666667;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -819,7 +819,7 @@ body {
   padding-top: 30px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.187;
+  line-height: 1.1875;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -828,7 +828,7 @@ body {
 .dev__position {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.187;
+  line-height: 1.1875;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -846,16 +846,13 @@ body {
 .clients__title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.166;
+  line-height: 1.6666666667;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
 }
 .clients__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
@@ -899,7 +896,7 @@ body {
 .footer__address-title {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: #ffffff;
   display: block;
@@ -911,7 +908,7 @@ body {
 .footer-contact__title {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   /* color: $accent-color; */
   color: rgba(255, 255, 255, 0.6);
@@ -930,7 +927,7 @@ body {
 .join__header {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -940,9 +937,6 @@ body {
   margin-right: 10px;
 }
 .join__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -960,7 +954,7 @@ body {
 .footer-subscribe__title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -980,7 +974,7 @@ body {
   border-radius: 4px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   display: flex;
@@ -995,9 +989,6 @@ body {
 }
 
 .footer-subscribe__form-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 200px;
   height: 50px;
   background: #2196F3;

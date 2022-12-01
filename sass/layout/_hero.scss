@@ -18,10 +18,8 @@
   
     &__title {
     margin: 0 auto;
-      font-weight: 900;
+    @include font(900,44px,60px);
       width: 696px;
-      font-size: 44px;
-      line-height: 1.363;
       text-align: center;
       letter-spacing: 0.06em;
       text-transform: uppercase;
